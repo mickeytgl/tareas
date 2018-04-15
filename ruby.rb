@@ -31,3 +31,19 @@
 #     puts (negative.to_f / arr.length.to_f).round(6)
 #     puts (zero.to_f / arr.length.to_f).round(6)
 # end
+
+#Write a program that prints a staircase of size .
+
+# def staircase(n)
+#   for i in 0..n-1 do
+#     string = ''
+#     for x in 0..n-1 do
+#       if x >= n-i-1
+#         string+= '#'
+#       else
+#         string+= ' '
+#       end
+#     end
+#     puts string
+#   end
+# end
